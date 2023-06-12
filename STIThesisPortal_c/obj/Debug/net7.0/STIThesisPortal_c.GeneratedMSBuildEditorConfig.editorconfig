@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = STIThesisPortal_c
+build_property.RootNamespace = STIThesisPortal_c
+build_property.ProjectDir = D:\For OJT\Thesis Portal\STIThesisPortal_c\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\For OJT\Thesis Portal\STIThesisPortal_c
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/ThesisPages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlc2lzUGFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/ThesisPages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlc2lzUGFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/ThesisPages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlc2lzUGFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/ThesisPages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlc2lzUGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/ThesisPages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlc2lzUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For OJT/Thesis Portal/STIThesisPortal_c/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g6176iaafx

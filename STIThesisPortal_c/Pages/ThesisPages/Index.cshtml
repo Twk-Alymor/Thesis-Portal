@@ -1,0 +1,77 @@
+﻿@page
+@model STIThesisPortal_c.Pages.ThesisPages.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body{
+        background-image: url('~/Images/STI_BGC.jpg');
+    }
+</style>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<br/>
+<!-- Search -->
+<div>
+    <form asp-controller="Index" asp-action="Index" method="get">
+        <p>
+            Title or Author/s: <input type="text" name="SearchString" />
+            <input type="submit" value="Filter" />
+        </p>
+        <!-- Year Filter: Not working if it is used together with SearchString
+        <p>
+            Year: <input type="number" name="SearchYear" />
+            <input type="submit" value="Filter" />
+        </p>
+        -->
+    </form>
+</div>
+<!-- Theses Records -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ThesisModel[0].callNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThesisModel[0].author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThesisModel[0].title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThesisModel[0].year)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ThesisModel) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.callNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.year)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.accession">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.accession">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.accession">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
